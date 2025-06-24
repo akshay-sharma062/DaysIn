@@ -1,0 +1,480 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Baloo";
+  src: url("./font/Baloo.woff2") format("woff2"),
+    url("./font/Baloo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+hr{
+  background-color: #004986 !important;
+  height: 20px !important;
+  padding: 0 !important;
+  margin: 0px !important;
+}
+h1,
+h2,
+h3,
+h4,h5 {
+  font-family: "Baloo";
+  color: #004986;
+}
+.hero-section {
+  background-image: url("./images/feature-2.jpg"); /* Replace with your hotel image URL */
+  background-size: cover;
+  background-position: center;
+  height: 768px;
+  /* width: 1366px; */
+  color: white ;
+}
+.hero-text h2 {
+  color: white !important;
+  position: absolute;
+  bottom: 11%;
+  left: 2%;
+  font-size: 50px;
+}
+.reservation-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  text-align: center;
+}
+.reservation-box h5 {
+  margin: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  opacity: 100%;
+}
+.feature-box {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.book-group {
+  width: 206px;
+}
+.feature-section {
+  background: url("./images/Group\ 206.png") no-repeat center;
+  background-color: #004986;
+  background-size: cover;
+  padding: 40px 0;
+}
+.welcome-img {
+  border-radius: 10px;
+}
+.nav-btn {
+  background-color: #ffc107; /* Bootstrap warning color */
+  border: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 5px;
+}
+.nav-btn:hover {
+  background-color: #e0a800;
+}
+.content {
+  padding: 0px !important;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+.feature-content {
+  padding: 100px;
+}
+.logo-img {
+  width: 100px;
+}
+.map-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  background: #001f3f;
+}
+
+.map-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Slight overlay for text clarity */
+  padding: 60px 20px 20px;
+}
+
+.map-section img {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.section-title {
+  color: #003366;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.location-text {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.map-container {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .featured-Room {
+    /* visibility: hidden; */
+    width: 376px;
+}
+.feature-content {
+  padding: 25px;
+}
+  .hero-section {
+    background-size: cover;
+    background-image: url("./images/feature-2.jpg"); /* Replace with your hotel image URL */
+    height: 768px;
+    width: 100%;
+    color: white;
+    
+  }
+  .hero-text {
+    position: absolute;
+    bottom: 11%;
+    left: 20%;
+    font-size: 50px;
+}
+.reservation-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  /* border-radius: 8px; */
+  position: absolute;
+  width: 340px;
+  bottom: -14%;
+  right: 4%;
+  border-radius: 0;
+  color: #0088CC;
+}
+  .location-text {
+    font-size: 1rem;
+  }
+.row{
+  justify-content: center !important;
+}
+.special-offers {
+  background: #fdd600;
+  padding: 20px 0px !important;
+  margin:0px !important ;
+  text-align: center;
+}
+.special-offers div {
+  padding: 0px !important;
+}
+.offer-card{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+}
+.special-offers {
+  background: #fdd600;
+  padding: 60px 20px ;
+  text-align: center;
+}
+.special-offers div{
+  --bs-gutter-x: 1.5rem !important
+}
+
+.special-offers h2 {
+  color: #004986;
+  font-size: 46pt;
+  margin-bottom: 40px;
+ 
+}
+
+.offer-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background-color: #FFF200;
+  color: #000;
+
+  
+ 
+}
+
+.offer-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.offer-content {
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+  min-height: 200px;
+}
+.offer-content h5 {
+  color: #004986;
+}
+
+.btn-offer {
+  margin-top: 10px;
+  background-color: #004986 !important;
+  color: #fff !important;
+  font-size: 0.9rem;
+}
+
+.group-rewards {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.group-rewards img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-nav {
+  margin-top: 20px;
+}
+
+.carousel-nav button {
+  background-color: #fdd600;
+  border: none;
+  padding: 10px 16px;
+  font-size: 18px;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .offer-content {
+    text-align: center;
+  }
+  .testimonial-section {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    position: relative;
+    background-color: #0088cc;
+    /* width: 390px; */
+  }
+  
+  .testimonial-card {
+    background: white;
+    /* padding: 30px; */
+    border-radius: 10px;
+    height: 420px;
+    /* width: 600px !important; */
+    border-top: 4px solid #005fa3;
+    transition: 0.3s ease;
+  }
+  .testimonial-carousel {
+    display: flex;
+        justify-content: space-between !important  ;
+        /* width: 400px; */
+        text-align: left;
+        align-items: stretch;
+        gap: 0rem !important;
+        overflow-x: auto;
+
+  }
+  .Testimonial{
+    
+  }
+  .footer-section {
+    text-align: center;
+  }
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    display: block !important;
+    font-size: 18px !important;
+    margin: 20px 0px !important;
+  }
+  .footer-contact div {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    display: block !important;
+    font-size: 18px !important;
+    margin: 20px 0px !important;
+  }
+  .footer-logo {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 600;
+  }
+  .copyright{
+    margin-bottom: 60px;
+    padding: 10px;
+  }
+}
+
+/* Testimonials */
+.testimonial-section {
+  padding: 80px 20px 0;
+  position: relative;
+  text-align: center;
+  background-color: #0088cc;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  min-height: 260px;
+  margin: 0 10px;
+  border-top: 4px solid #005fa3;
+  transition: 0.3s ease;
+}
+
+.testimonial-card.active {
+  border: 2px solid #005fa3;
+  border-top: 4px solid #005fa3;
+}
+
+.testimonial-arrows {
+  font-size: 28px;
+  color: white;
+  background-color: #ffcb00;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 12px;
+}
+
+.testimonial-author {
+  color: #0078c9;
+  font-weight: 600;
+}
+
+.review-btn {
+  background-color: #003b71;
+  color: white;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.daysinn-logo-container {
+  background-color: white;
+  height: 120px;
+  border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+.daysinn-logo-container img {
+  height: 111px;
+}
+.footer-section {
+  background: url("./images/Group\ 206.png") no-repeat center;
+  background-color: #004986;
+  background-size: cover;
+  color: white;
+  padding: 60px 20px 30px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.footer-contact {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.footer-contact a {
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.reservation-btn {
+  background-color: white;
+  color: #003b71;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  margin: 30px 0;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  font-size: 14px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  height: 489px;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-logo span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.copyright {
+  color: #00b6f1;
+}
