@@ -25,7 +25,7 @@ h4,h5 {
   color: #004986;
 }
 .hero-section {
-  background-image: url("./images/feature-2.jpg"); /* Replace with your hotel image URL */
+  background-image: url("./images/feature-3.jpg"); /* Replace with your hotel image URL */
   background-size: cover;
   background-position: center;
   height: 768px;
@@ -146,8 +146,9 @@ h4,h5 {
   }
   .featured-Room {
     /* visibility: hidden; */
-    width: 376px;
+    width: 375px;
 }
+
 .feature-content {
   padding: 25px;
 }
@@ -204,9 +205,9 @@ h4,h5 {
   padding: 60px 20px ;
   text-align: center;
 }
-.special-offers div{
+/* .special-offers div{
   --bs-gutter-x: 1.5rem !important
-}
+} */
 
 .special-offers h2 {
   color: #004986;
