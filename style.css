@@ -43,17 +43,25 @@ h4,h5 {
   background: white;
   color: black;
   padding: 15px;
-  border-radius: 8px;
   position: absolute;
   bottom: 10%;
   right: 5%;
+  /* text-align: center; */
+}
+.reservation-box p{
   text-align: center;
+  margin: 0px!important;
+  margin-left: 10px !important;
+  padding: 0px !important;
 }
 .reservation-box h5 {
   margin: 0;
+  font-size: 48px;
+  color: #0088CC;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #000 !important;
   opacity: 100%;
 }
 .feature-box {
@@ -119,6 +127,19 @@ h4,h5 {
   object-fit: cover;
 }
 
+.navigation-btn{
+  position:absolute;
+  bottom: -1550px;
+  left: 600px;
+  padding-left: 10px;
+} 
+.navigation-btn2{
+  position:absolute;
+  bottom: -3700px;
+  left: 600px;
+  padding-left: 10px;
+  z-index: 20;
+}
 .section-title {
   color: #003366;
   font-size: 2.5rem;
@@ -128,7 +149,10 @@ h4,h5 {
 .highlight {
   color: #007bff;
 }
-
+.loction{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 .location-text {
   max-width: 800px;
   margin: auto;
@@ -203,6 +227,9 @@ h4,h5 {
 
 
 }
+.container .row{
+  --bs-gutter-x: 0rem !important
+  } 
 }
 .special-offers {
   background: #fdd600;
@@ -285,17 +312,14 @@ h4,h5 {
     padding-left: 0px !important;
     padding-right: 0px !important;
     position: relative;
-    background-color: #0088cc;
+    background-color: #004986;
     /* width: 390px; */
   }
   
   .testimonial-card {
     background: white;
-    /* padding: 30px; */
-    border-radius: 10px;
     height: 420px;
-    /* width: 600px !important; */
-    border-top: 4px solid #005fa3;
+    border-top: 6px solid #0088CC;
     transition: 0.3s ease;
   }
   .testimonial-carousel {
@@ -346,19 +370,22 @@ h4,h5 {
 
 /* Testimonials */
 .testimonial-section {
+  margin-top: 100px;
   padding: 80px 20px 0;
   position: relative;
   text-align: center;
-  background-color: #0088cc;
+  height: 824px;
+  background-color: #d9edf7;
 }
 
 .testimonial-card {
   background: white;
   padding: 30px;
-  border-radius: 10px;
-  min-height: 260px;
+  /* border-radius: 10px; */
+  height: 402px;
+  width: 402px;
   margin: 0 10px;
-  border-top: 4px solid #005fa3;
+  border-top: 6px solid #005fa3;
   transition: 0.3s ease;
 }
 
@@ -401,19 +428,31 @@ h4,h5 {
 
 .daysinn-logo-container {
   background-color: white;
-  height: 120px;
-  border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-  margin-top: 10rem;
+  height: 93px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 40px;
+  left: 470px;
   display: flex;
   justify-content: center;
-  align-items: end;
-  padding-bottom: 10px;
+  width: 410px;
   z-index: 10;
 }
 
 .daysinn-logo-container img {
   height: 111px;
+  margin: 0px 10px;
+  z-index: 20;
+  padding-top: 30px;
+}
+.daysInn-Logo-footer{
+  width: 1337px;
+  background-color:white;
+  position: absolute;
+  height:93px;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
 }
 .footer-section {
   background: url("./images/Group\ 206.png") no-repeat center;
